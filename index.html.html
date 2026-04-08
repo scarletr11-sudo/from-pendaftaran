@@ -1,0 +1,49 @@
+<html>
+<head>
+    <title> Form Pendaftaran </title>
+    <link rel="stylesheet" style="text/css" href="sumative4.css">
+    <script src="sumative4.js"></script>
+</head>
+<body>
+
+    <div class="container1" role="region" aria-labelledby="title">
+    <h1 id="title">Form Pendaftaran</h1>
+
+    <div class="container2" role="region" aria-labelledby="title">
+    <form id="form1" action="#" method="post" novalidate>
+
+    <label for="name"> Nama:</label>
+    <input id="name" name="name" type="text" placeholder="Nama Lengkap" required>
+
+    <label for="name"> Kelas:</label>
+    <input id="Email" name="Email" type="Email" placeholder="BIM Kelas" required>
+
+   <label> Umur :</label>
+   <input type="checkbox" id="age1" name="umur" value="10-12">
+   <label for="age1">10–12 tahun</label><br>
+   <input type="checkbox" id="age2" name="umur" value="13-15">
+   <label for="age2">13–15 tahun</label><br>
+   <input type="checkbox" id="age3" name="umur" value="16-17">
+   <label for="age3">16–17 tahun</label><br>
+
+   <label> Jenis Kelamin :</label>
+   <input type="radio" id="Wanita" name="wanita" value="wanita">
+   <label for="Wanita"> Wanita </label><br>
+   <input type="radio" id="Pria" name="Pria" value="Pria">
+   <label for="Pria"> Pria </label><br>
+
+   <label> Tingkatan :</label>
+   <input type="radio" id="SD" name="SD" value="SD">
+   <label for="SD"> SD </label><br>
+   <input type="radio" id="SMP" name="SMP" value="SMP">
+   <label for="SMP"> SMP </label><br>
+   <input type="radio" id="SMA" name="SMA" value="SMA">
+   <label for="SMA"> SMA </label><br>
+</form>
+</div>
+   <button type="reset" form="form1">Clear</button>
+   <button type="button" onclick="tampil()">OK</button>
+   <p id="hasil"></p>
+</div>
+</body>
+</html>
